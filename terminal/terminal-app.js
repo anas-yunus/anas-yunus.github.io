@@ -2,7 +2,7 @@ const inputEl = document.getElementById("input-box")
 const printArea = document.getElementById("print-area")
 const printBOX = document.getElementById("print-box")
 const commandDivEl = document.getElementById("command-div")
-let txt = '<p><span style="color: var(--blue);">>></span> Type <a href="#" style=" color: var(--red);">norm</a> for Normal Website</p>'
+let txt = '<p><span style="color: var(--blue);">>></span> Type <a href="../home.html" target="_self" style=" color: var(--red);">norm</a> for Normal Website</p>'
 addLine(txt, '', 0)
 
 loopLines(banner, "", 100);
