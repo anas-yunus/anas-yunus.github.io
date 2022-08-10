@@ -50,4 +50,6 @@ github = ['  Opening on github.com...',' ']
 twitter = ['  Opening on twitter.com...',' ']
 email = ['  Preparing to send email...',' ']
 
+norm = ['   Opening OG website...',' ']
+
 invalid = ["Invalid Command, Use <span style='color: var(--red);'>help</span> to get list of commands",' ']

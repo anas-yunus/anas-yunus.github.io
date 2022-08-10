@@ -40,7 +40,8 @@ document.addEventListener('keypress', (event) => {
                 break;
             case "norm":
             case "-n":
-                loopLines(commands, "", 100);
+                loopLines(norm, "", 100);
+                window.open("../home.html", "_self");
                 break;
             case "github":
             case "-g":
@@ -55,7 +56,7 @@ document.addEventListener('keypress', (event) => {
                 loopLines(instagram, "", 100);
                 setTimeout(() => {
                     window.open(
-                        "https://www.instagram.com/instagram", "_blank");
+                        "https://www.instagram.com/anasyunus_", "_blank");
                 }, 1000);
                 break;
             case "twitter":
