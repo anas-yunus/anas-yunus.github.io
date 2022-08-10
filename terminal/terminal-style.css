@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Source+Code+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursor, monospace;
+    font-size: 18px;
+}
+::selection {
+    color: #211830;
+    background-color: #519975;
+}
+
+::-moz-selection {
+    color: #211830;
+    background-color: #519975;
+}
+:root {
+    --black: #16161C;
+    --red: #E95678;
+    --green: #29D398;
+    --yellow: #FAB795;
+    --blue: #26BBD9;
+    --purple: #EE64AE;
+    --cyan: #59E3E3;
+    --white: #FADAD1;
+    --brightBlack: #232530;
+    --brightRed: #EC6A88;
+    --brightGreen: #3FDAA4;
+    --brightYellow: #FBC3A7;
+    --brightBlue: #3FC6DE;
+    --brightPurple: #F075B7;
+    --brightCyan: #6BE6E6;
+    --brightWhite: #FDF0ED;
+    --foreground: #FDF0ED;
+    --background: #1C1E26;
+    --cursorColor: #FDF0ED;
+    --lightgrey: #929bc1;
+}
+
+body {
+    margin: 10px;
+    color: var(--cursorColor);
+    background-color: var(--black);
+}
+
+input{
+    border: none;
+    background-color: transparent;
+    color: var(--brightRed);
+    width: 0ch;
+    caret-color: transparent;
+}
+input:focus{
+    outline: none;
+    background-color: transparent;
+    color: var(--brightRed);
+}
+.command-div {
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.commands{
+    margin-bottom: 3px;
+}
+
+.caret-underscore {
+    background-color: #fff;
+    animation: blink 1s step-end infinite;
+
+}
+
+@keyframes blink {
+
+    from,
+    to {
+        background-color: transparent;
+    }
+
+    50% {
+        background-color: #fff;
+    }
+}
