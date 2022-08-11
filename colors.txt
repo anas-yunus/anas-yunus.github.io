@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");:root {
+    --text-color: #a9b1d6;
+    --primary: #bb9af7;
+    --secondary: #2ac3de;
+    --background-color: #1a1b26
+}
+
+
+ {
+    "name": "HorizonBright",
+    "black": "#16161C",
+    "red": "#DA103F",
+    "green": "#1EB980",
+    "yellow": "#F6661E",
+    "blue": "#26BBD9",
+    "purple": "#EE64AE",
+    "cyan": "#1D8991",
+    "white": "#FADAD1",
+    "brightBlack": "#1A1C23",
+    "brightRed": "#F43E5C",
+    "brightGreen": "#07DA8C",
+    "brightYellow": "#F77D26",
+    "brightBlue": "#3FC6DE",
+    "brightPurple": "#F075B7",
+    "brightCyan": "#1EAEAE",
+    "brightWhite": "#FDF0ED",
+    "foreground": "#1C1E26",
+    "background": "#FDF0ED",
+    "cursorColor": "#1C1E26"
+  },
+  {
+    "name": "HorizonDark",
+    "black": "#16161C",
+    "red": "#E95678",
+    "green": "#29D398",
+    "yellow": "#FAB795",
+    "blue": "#26BBD9",
+    "purple": "#EE64AE",
+    "cyan": "#59E3E3",
+    "white": "#FADAD1",
+    "brightBlack": "#232530",
+    "brightRed": "#EC6A88",
+    "brightGreen": "#3FDAA4",
+    "brightYellow": "#FBC3A7",
+    "brightBlue": "#3FC6DE",
+    "brightPurple": "#F075B7",
+    "brightCyan": "#6BE6E6",
+    "brightWhite": "#FDF0ED",
+    "foreground": "#FDF0ED",
+    "background": "#1C1E26",
+    "cursorColor": "#FDF0ED"
+  },
+
+
+
+
+_HI_
+    ___                           __  __                          
+   /   |   ____   ____ _ _____    \ \/ /__  __ ____   __  __ _____
+  / /| |  / __ \ / __ `// ___/     \  // / / // __ \ / / / // ___/
+ / ___ | / / / // /_/ /(__  )      / // /_/ // / / // /_/ /(__  ) 
+/_/  |_|/_/ /_/ \__,_//____/      /_/ \__,_//_/ /_/ \__,_//____/  
+
+
+   __________________________________
+  |:                           ``::%H|
+  |%:.       Starfighters         `:%|
+  |H%::..___________________________:|
+
+          .                            .                      . 			
+  .                  .             -)------+====+       .				
+                           -)----====    ,'   ,'   .                 .		    ___                           __  __                          
+              .                  `.  `.,;___,'                .				   /   |   ____   ____ _ _____    \ \/ /__  __ ____   __  __ _____
+                                   `, |____l_\							  / /| |  / __ \ / __ `// ___/     \  // / / // __ \ / / / // ___/
+                     _,....------c==]""______ |,,,,,,.....____ _				 / ___ | / / / // /_/ /(__  )      / // /_/ // / / // /_/ /(__  ) 
+    .      .        "-:_____________  |____l_|]'''''''''''       .     .		/_/  |_|/_/ /_/ \__,_//____/      /_/ \__,_//_/ /_/ \__,_//____/  
+                                  ,'"",'.   `.						
+         .                 -)-----====   `.   `.              			
+                     .            -)-------+====+       .            .	
+             .                               .						
+  Incom's T-65B X-wing Space
+  Superiority Starfighter (1)
+
+------------------------------------------------
+Thank you for visiting https://asciiart.website/
+This ASCII pic can be found at
+https://asciiart.website/index.php?art=movies/star%20wars
+
+   .----.
+   |C>_ |
+ __|____|__
+|  ______--|
+`-/.::::.\-'
+ `--------'
+
+|                __																	
+|    ..======.. |==|		|	    ___                         __  __                          		
+|    || C>_  || |= |		|	   /   |   ____   ____ _ _____  \ \/ /__  __ ____   __  __ _____		
+| _  ||      || |^*| _		|	  / /| |  / __ \ / __ `// ___/   \  // / / // __ \ / / / // ___/		
+||o| o=,====,=o |__||o|		|	 / ___ | / / / // /_/ /(__  )    / // /_/ // / / // /_/ /(__  ) 		
+||_|  _______)   )  |_|		|	/_/  |_|/_/ /_/ \__,_//____/    /_/ \__,_//_/ /_/ \__,_//____/  		
+|    [=======]  ()       	|															
+|====================================================================================================>

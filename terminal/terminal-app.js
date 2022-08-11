@@ -12,7 +12,7 @@ document.addEventListener('keypress', (event) => {
     inputEl.focus()
     if (event.key === "Enter" && inputEl.value !== "") {
 
-        let cmdValue = inputEl.value.toLowerCase();
+        let cmdValue = inputEl.value.toLowerCase().trim();
 
         addLine(`<span style="color: var(--blue);">>></span> <span style="color: var(--yellow);">${cmdValue}</span>`, "commands", 0)
 
