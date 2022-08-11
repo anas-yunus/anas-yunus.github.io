@@ -7,8 +7,9 @@
     font-size: 18px;
 }
 ::selection {
+
     color: #211830;
-    background-color: #519975;
+    background-color: var(--greenHigh);
 }
 
 ::-moz-selection {
@@ -16,6 +17,8 @@
     background-color: #519975;
 }
 :root {
+    --greenHigh: #519975;
+    --blackHigh: #211830;
     --black: #16161C;
     --red: #E95678;
     --green: #29D398;

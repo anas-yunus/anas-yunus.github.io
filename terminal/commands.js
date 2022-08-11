@@ -10,7 +10,7 @@ banner = [
     '<span style="color: var(--blue);">>></span> Welcome to My Interactive Web Terminal',
     '<span style="color: var(--blue);">>></span> Type <span style="color: var(--red);">help</span> to get list of commands</p>',
     ' '
-    ]
+]
 
 commands = [
     '   <span style="color: var(--red);">about</span>       About Me and Myself',
@@ -22,18 +22,33 @@ commands = [
     ' '
 ]
 
+admin_commands = [
+    '   <span style="color: var(--red);">about</span>       About Me and Myself',
+    '   <span style="color: var(--red);">projects</span>    My past, present & prospective Projects',
+    '   <span style="color: var(--red);">contact</span>     My Socials and Contact Details',
+    '   <span style="color: var(--red);">banner</span>      Print the ASCII Banner',
+    '   <span style="color: var(--red);">help</span>        I think you know what this is',
+    '   <span style="color: var(--red);">norm</span>        Takes you to my Non-Cool Normal Website',
+    '   <span style="color: var(--red);">hidden</span>      ADMIN ONLY files',
+    ' '
+]
+
+
+
+
 about = [
     '   Hi, My name is Anas Yunus',
     '   I\'m a 17y/o from Kerala, India',
     '   Currently a CSE fresher at SRM Chennai',
     '   Passionate Coder, Lazy piece of shit, and a virgin(obviously)',
+    '   really into AI and Drones....and stuff',
     ' ',
 ]
 
 projects = [
     '   Uhhhh......',
     '   Coming Soon..!!!!',
-    '   ig 🤷🏻‍♂️',
+    '   ig...🤷🏻‍♂️',
     '    '
 ]
 
@@ -45,11 +60,12 @@ contact = [
     ' '
 ]
 
-instagram = ['  Opening on instagram.com...',' ']
-github = ['  Opening on github.com...',' ']
-twitter = ['  Opening on twitter.com...',' ']
-email = ['  Preparing to send email...',' ']
+instagram = ['  Opening on instagram.com...', ' ']
+github = ['  Opening on github.com...', ' ']
+twitter = ['  Opening on twitter.com...', ' ']
+email = ['  Preparing to send email...', ' ']
+sudo = ["   you are now admin", " "]
+hidden_files = ['   Damn boi! u smort, but not enough...haha(evil laugh)', '   ']
+norm = ['   Opening OG website...', ' ']
 
-norm = ['   Opening OG website...',' ']
-
-invalid = ["Invalid Command, Use <span style='color: var(--red);'>help</span> to get list of commands",' ']
+invalid = ["Invalid Command, Use <span style='color: var(--red);'>help</span> to get list of commands", ' ']
