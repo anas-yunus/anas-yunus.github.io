@@ -81,7 +81,7 @@ document.addEventListener('keypress', (event) => {
                         "mailto:anasyunusind@gmail.com", "_blank");
                 }, 1000);
                 break;
-            case "sudo$admin":
+            case "sudo%admin":
                 loopLines(sudo, "", 100);
                 admin = true
                 admin_func()
