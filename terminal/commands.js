@@ -37,19 +37,23 @@ admin_commands = [
 
 
 about = [
-    '   Hi, My name is Anas Yunus',
-    '   I\'m a 17y/o from Kerala, India',
+    '   Hi, i\'m Anas Yunus',
+    '   a socially deprived 17y/o from Kerala, India',
     '   Currently a CSE fresher at SRM Chennai',
     '   Passionate Coder, Lazy piece of shit, and a virgin(obviously)',
-    '   really into AI and Drones....and stuff',
+    '   HTML <i>Programmer</i>, Cant invert a binary tree.',
+    '   one more heartbreak and i\'ll make tony\'s killer drones myself',
     ' ',
 ]
 
 projects = [
-    '   Uhhhh......',
-    '   Coming Soon..!!!!',
-    '   ig...🤷🏻‍♂️',
-    '    '
+    '   <a style="color: var(--red);" href="https://anas-yunus.github.io/" target="_blank">portfolio</a>                       This website',
+    '   <a style="color: var(--red);" href="https://anas-yunus.github.io/nofap-tracker" target="_blank">nofap-tracker (NSFW)</a>            Not really pxrn, but also NSFW <i>~kinda</i>',
+    '   <a style="color: var(--red);" href="https://anas-yunus.github.io/dvd-screensaver-blueprint" target="_blank">dvd-screensaver-blueprint</a>       I mean...Why not',
+    '   <a style="color: var(--red);" href="https://anas-yunus.github.io/flames/" target="_blank">flames</a>                          if u dont know already, ur too young',
+    '   <span style="color: var(--red);">..</span>',
+    '   And a shit ton of mini practice projects like the last two',
+    '   ',
 ]
 
 contact = [

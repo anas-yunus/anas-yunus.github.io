@@ -144,9 +144,9 @@ function hidden() {
     }, 1500);
 
     setTimeout(() => {
-        addLine("   <span style='background-color: var(--greenHigh); color: var(--blackHigh);'> Jokes aside, you just qualified to be my friend.       </span>","", 100)
-        addLine("   <span style='background-color: var(--greenHigh); color: var(--blackHigh);'> Send the secret command thru any of the contact methods</span>","", 100)
-        addLine("   <span style='background-color: var(--greenHigh); color: var(--blackHigh);'> Waiting for your message partner !                     </span>","", 100)
+        addLine("   <span style='background-color: var(--greenHigh); color: var(--blackHigh);'> Jokes aside, you just qualified to be my friend.         </span>","", 100)
+        addLine("   <span style='background-color: var(--greenHigh); color: var(--blackHigh);'> Send the secret command thru any of the contact methods. </span>","", 100)
+        addLine("   <span style='background-color: var(--greenHigh); color: var(--blackHigh);'> Waiting for your message partner !                       </span>","", 100)
         addLine("   ","", 100)
     }, 3000);
 }
