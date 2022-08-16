@@ -52,7 +52,7 @@ projects = [
     '   <a style="color: var(--red);" href="https://anas-yunus.github.io/dvd-screensaver-blueprint" target="_blank">dvd-screensaver-blueprint</a>       I mean...Why not',
     '   <a style="color: var(--red);" href="https://anas-yunus.github.io/flames/" target="_blank">flames</a>                          if u dont know already, ur too young',
     '   <span style="color: var(--red);">..</span>',
-    '   And a shit ton of mini practice projects like the last two',
+    '   (and a shit ton of mini projects like the last two)',
     '   ',
 ]
 
