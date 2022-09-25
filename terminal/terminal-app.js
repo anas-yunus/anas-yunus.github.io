@@ -5,6 +5,8 @@ const printArea = document.getElementById("print-area")
 const printBOX = document.getElementById("print-box")
 const commandDivEl = document.getElementById("command-div")
 const userName = document.getElementById("user")
+const bottomBar = document.getElementById("bottom-bar")
+const scrollSect = document.getElementById("scroll-sect")
 
 var txt = '<p><span style="color: var(--blue);">>></span> Type <a href="../home.html" target="_self" style=" color: var(--red);">norm</a> for Normal Website</p>'
 var admin = false
@@ -73,6 +75,14 @@ document.addEventListener('keypress', (event) => {
                         "https://www.twitter.com/anasyunus_", "_blank");
                 }, 1000);
                 break;
+            case "linkedin":
+            case "-l":
+                loopLines(linkedin, "", 100);
+                setTimeout(() => {
+                    window.open(
+                        "https://www.linkedin.com/in/anasyunus", "_blank");
+                }, 1000);
+                break;
             case "email":
             case "-e":
                 loopLines(email, "", 100);
@@ -88,6 +98,9 @@ document.addEventListener('keypress', (event) => {
                 break;
             case "hidden":
                 admin === true ? hidden() : loopLines(invalid, "", 100);
+                break;
+            case "clear":
+                clear()
                 break;
             default:
                 loopLines(invalid, "", 100);
@@ -144,15 +157,16 @@ function hidden() {
     }, 1500);
 
     setTimeout(() => {
-        addLine("   <span style='background-color: var(--greenHigh); color: var(--blackHigh);'> Jokes aside, you just qualified to be my friend.         </span>","", 100)
-        addLine("   <span style='background-color: var(--greenHigh); color: var(--blackHigh);'> Send the secret command thru any of the contact methods. </span>","", 100)
-        addLine("   <span style='background-color: var(--greenHigh); color: var(--blackHigh);'> Waiting for your message partner !                       </span>","", 100)
-        addLine("   ","", 100)
+        addLine("   <span style='background-color: var(--greenHigh); color: var(--blackHigh);'> Jokes aside, you just qualified to be my friend.         </span>", "", 100)
+        addLine("   <span style='background-color: var(--greenHigh); color: var(--blackHigh);'> Send the secret command thru any of the contact methods. </span>", "", 100)
+        addLine("   <span style='background-color: var(--greenHigh); color: var(--blackHigh);'> Waiting for your message partner !                       </span>", "", 100)
+        addLine("   ", "", 100)
     }, 3000);
 }
 
-function admin_func(){
+function admin_func() {
     userName.innerHTML = "admin"
     userName.style.color = "var(--black)"
     userName.style.backgroundColor = "var(--red)"
 }
+

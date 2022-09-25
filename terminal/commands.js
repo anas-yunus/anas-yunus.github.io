@@ -61,11 +61,14 @@ contact = [
     '   <span style="color: var(--blue);">-g</span>  <span style="color: var(--red);">github</span>     <span style="color: var(--white);">@anas-yunus</span>',
     '   <span style="color: var(--blue);">-t</span>  <span style="color: var(--red);">twitter</span>    <span style="color: var(--white);">@anasyunus_</span>',
     '   <span style="color: var(--blue);">-i</span>  <span style="color: var(--red);">instagram</span>  <span style="color: var(--white);">@anasyunus_</span>',
+    '   <span style="color: var(--blue);">-l</span>  <span style="color: var(--red);">linkedin</span>   <span style="color: var(--white);">@anasyunus</span>',
     '   <span style="color: var(--blue);">-e</span>  <span style="color: var(--red);">email</span>      <span style="color: var(--white);">anasyunusind@gmail.com</span>',
+    
     ' '
 ]
 
 instagram = ['  Opening on instagram.com...', ' ']
+linkedin = ['  Opening on linkedin.com...', ' ']
 github = ['  Opening on github.com...', ' ']
 twitter = ['  Opening on twitter.com...', ' ']
 email = ['  Preparing to send email...', ' ']
