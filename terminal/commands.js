@@ -49,9 +49,10 @@ about = [
 projects = [
     '   <a style="color: var(--red);" href="https://anas-yunus.github.io/" target="_blank">portfolio</a>                       This website',
     '   <a style="color: var(--red);" href="https://anas-yunus.github.io/nofap-tracker" target="_blank">nofap-tracker (NSFW)</a>            Not really pxrn, but also NSFW <i>~kinda</i>',
-    '   <a style="color: var(--red);" href="https://anas-yunus.github.io/dvd-screensaver-blueprint" target="_blank">dvd-screensaver-blueprint</a>       I mean...Why not',
-    '   <a style="color: var(--red);" href="https://anas-yunus.github.io/flames/" target="_blank">flames</a>                          if u dont know already, ur too young',
     '   <a style="color: var(--red);" href="https://anas-yunus.github.io/commit-bot" target="_blank">commit-bot</a>                      A python bot that commits automagically',
+    '   <a style="color: var(--red);" href="https://anas-yunus.github.io/dvd-screensaver-blueprint" target="_blank">dvd-screensaver-blueprint</a>       I mean...Why not (psst.. Its ASMR-y)',
+    '   <a style="color: var(--red);" href="https://anas-yunus.github.io/flames/" target="_blank">flames</a>                          if u dont know already, ur too young',
+    '   <a style="color: var(--red);" href="https://anas-yunus.github.io/rgb-color-guesser/" target="_blank">color-guesser</a>                   A simple color guesser game',
     '   <span style="color: var(--red);">..</span>',
     '   (and a shit ton of mini projects like the last two)',
     '   ',
