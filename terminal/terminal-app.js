@@ -49,7 +49,10 @@ document.addEventListener('keypress', (event) => {
             case "norm":
             case "-n":
                 loopLines(norm, "", 100);
-                window.open("../home.html", "_self");
+                setTimeout(() => {
+                    window.open(
+                        "../home.html", "_self");
+                }, 1500);
                 break;
             case "github":
             case "-g":
