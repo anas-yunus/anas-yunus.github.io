@@ -3,17 +3,38 @@
     src: url(/fonts/SF-Pro-Display-Regular.woff);
     font-weight: normal;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 .section{
-    padding-top: 5rem;
+    padding-top: 6rem;
     height: 100vh;
-    background-color: antiquewhite;
+    
 }
 
 *{
     font-family: 'SF-Display';
 }
 
-.container{
-    
+a{
+    font-size: 1.2rem;
+}
+
+.navbar-item{
+    padding: 1rem 1.6rem;
+    font-size: 1.3rem;
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+}
+
+.gg-terminal{
+    transform: scale(1.3);
+}
+
+.about-text{
+    font-size: 1.7rem;
+    letter-spacing: 1.2px;
+    line-height: 40px;
 }

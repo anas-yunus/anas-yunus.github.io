@@ -8,15 +8,19 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link href='https://css.gg/terminal.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
   </head>
   <body>
-    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-fixed-top " role="navigation" aria-label="main navigation">
       <div class="navbar-brand pl-3">
         
-        <a class="navbar-item has-text-danger has-text-weight-medium" href="#">
+        <a class="navbar-item has-text-danger is-size-4 has-text-weight-bold" href="#">
           A Y
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
         </a>
-        
       </div>
     
       <div id="navbarBasicExample" class="navbar-menu pr-4">
@@ -36,7 +40,7 @@
             <a class="navbar-item pl-4" href="./terminal/terminal.html">
               <span class="has-text-black ">
                 <span class="icon is-large">
-                  <i class="gg-terminal has-text-danger"></i>
+                  <i style="font-size: 24px;" class="gg-terminal has-text-danger "></i>
                 </span>
               </span>
             </a>
@@ -46,33 +50,194 @@
 
   <section class="section" id="landing">
     <div class="container">
-      <h1 class="title">🖖🏻Hi There,</h1>
-      <h2 class="subtitle pl-2">Nice To meet you</h2>
-      <p class="subtitle">
-        normie website is still under construction 🏗️🚧!
-      </p>
-      
-      <p class="subtitle-is-2">wanna see my <a href="./terminal/terminal.html" class="has-text-danger">super cool web terminal</a>?</p>
+      <h1 class="title is-size-1">🖖🏻Hey there,</h1>
+      <h2 class="subtitle pl-4 is-size-2 has-text-weight-bold" style="color: #363636;">Nice to meet you</h2>
+    </div>
+    <div class="container pl-4">
+      <div class="columns ">
+      <div class="column is-three-fifths"><br><br>
+        <p class="about-text">
+        My name is <span  style="background-color: hsl(347, 90%, 96%); color: #363636;">Anas</span>, I’m a Frontend web dev based out of <span  style="background-color: hsl(48, 100%, 96%); color: #363636;">Chennai</span>. I make frontend websites and somewhat good PWA webapps. <br> 
+        I love coding cuz it always makes think outside the box and push myself to the limits. <br>
+        </p>
+        <p class="is-size-4">(btw that image is not me)</p>
+      </div>
+      <div class="column ">
+        <img src="/images/formal3.jpg" alt="" style="border-radius:100%; display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;">
+      </div>
+      </div>
     </div>
   </section>
   <section class="section" id="about">
     <div class="container">
       <h1 class="title">About Me,</h1>
       <h2 class="subtitle">Not much going on</h2>
+      <br><br>
+      </div>
+      <div class="container ">
+        <div class="columns ">
+        
+        <div class="column ">
+          <img src="/images/kerala1.jpg" alt="" style="border-radius: 25px; ">
+        </div>
+        <div class="pl-3 column is-three-fifths"><br>
+          <p class="about-text">
+            I learned my craft by working on side projects with friends and guidance from great mentors. In my free time, I get my hopes up for the <span style="background-color: #013CA6; color: #F4E84E;">Kerala Blasters</span> or Mumbai Indians winning a championship and drink sweet tea.
+            I’m currently learning 3D design, reading about tech history, and logging my favorite movies.
+            I'm inspired by people who seek happiness and create joy for others. If that sounds like you, let's grab some chai.
+          </p>
+        </div>
+        </div>
       </div>
   </section>
   <section class="section" id="projects">
     <div class="container">
       <h1 class="title">My Projects,</h1>
-      <h2 class="subtitle">Smol ones only</h2>
+      <h2 class="subtitle">Yet to make some 👉🏻👈🏻</h2>
+      <br>
+      <div class="columns">
+        <div class="column is-one-third">
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                Project 1🙈
+              </p>
+            </header>
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column is-one-third">
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                Project 2🙉
+              </p>
+            </header>
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus tempore aut vitae id porro quasi. Nemo tempore beatae rem animi tempora blanditiis laudantium distinctio, ea sed molestias earum repellat inventore.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column is-one-third">
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                Project 3🙊
+              </p>
+            </header>
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  Lorem ipsum leo risus, porta ac consectetur ac, vestibulum gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
   </section>
   <section class="section" id="contact">
     <div class="container">
       <h1 class="title">Contact me,</h1>
-      <h2 class="subtitle">Might ghost you</h2>
+      <h2 class="subtitle">Carefull! i might ghost you 👻</h2>
+      </div><br><br><br>
+
+
+      <div class="container">
+        <div class="columns">
+          <div class="column is-6">
+            
+<br>
+            <p>
+              <span style="background-color: #d9dffa; color: #363636;">Anas Y, <br>
+              RA2211026010127 <br>
+              CSE AIML W1</span> <br>
+              Paari, G Block <br>
+              SRM University Chennai.
+
+            </p>
+            <br><br>
+            <ul>
+              <li>Instagram - @anasyunus_</li>
+              <li>Twitter - @anasyunus_</li>
+              <li>Linkedin - @anasyunus</li>
+              <li>Github - @anas-yunus</li>
+              <li>Email - anasyunusind@gmail.com</li>
+            </ul>
+          </div>
+          <div class="column is-5">
+            <div class="field">
+              <label class="label">Name</label>
+              <div class="control">
+                <input class="input" type="text" placeholder="Enter Full Name">
+              </div>
+            </div>
+            
+            
+            <div class="field">
+              <label class="label">Email</label>
+              <div class="control">
+                <input class="input" type="email" placeholder="Enter Email" >
+              </div>
+              
+            </div>
+            
+            
+            
+            <div class="field">
+              <label class="label">Message</label>
+              <div class="control">
+                <textarea class="textarea" placeholder="What do you wanna say?"></textarea>
+              </div>
+            </div>
+            
+            
+            
+           
+            
+            <div class="field is-grouped">
+              <div class="control">
+                <button class="button is-link">Send</button>
+              </div>
+              <div class="control">
+                <button class="button is-link is-light">Cancel</button>
+              </div>
+            </div>
+          </div>
+          <div class="column"></div>
+        </div>
       </div>
   </section>
+
   </body>
 </html>
 
