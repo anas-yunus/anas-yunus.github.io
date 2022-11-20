@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'SF-Display';
+    src: url(/fonts/SF-Pro-Display-Regular.woff);
+    font-weight: normal;
+}
+
+.section{
+    padding-top: 5rem;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+*{
+    font-family: 'SF-Display';
+}
+
+.container{
+    
+}
