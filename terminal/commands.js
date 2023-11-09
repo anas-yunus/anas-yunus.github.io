@@ -38,11 +38,11 @@ admin_commands = [
 
 about = [
     '   Hi, i\'m Anas Yunus',
-    '   a socially deprived 17y/o from Kerala, India',
-    '   Currently a CSE fresher at SRM Chennai',
-    '   Passionate Coder, Lazy piece of shit, and a virgin(obviously)',
-    '   HTML <i>Programmer</i>, Cant invert a binary tree.',
-    '   one more heartbreak and i\'ll make tony\'s killer drones myself',
+    '   currently studying artificial intelligence at SRM University in Chennai',
+    '   an aspiring web developer with a passion for space and artificial intelligence',
+    '   fascinated by the mysteries of the cosmos and dream of one day contributing to space exploration',
+    '   inspired by drones, rockets, and other technological marvels that enable us to venture into the depths of space',
+    '   excited to be a part of the generation that will push the boundaries of human exploration',
     ' ',
 ]
 

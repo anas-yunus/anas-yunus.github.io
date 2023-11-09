@@ -51,7 +51,7 @@ document.addEventListener('keypress', (event) => {
                 loopLines(norm, "", 100);
                 setTimeout(() => {
                     window.open(
-                        "../home.html", "_self");
+                        "../index.html", "_self");
                 }, 1500);
                 break;
             case "github":
